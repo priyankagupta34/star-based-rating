@@ -23,9 +23,9 @@ Less configurations Less confusions. You can edit them as well</b></small>
 <StarBasedRating 
     onSelectRatingStars={this.selectStarHandler.bind(this)} 
     totalStars={10} />   
-    
-// onSelectRatingStars:  Total Number of stars you want to display    
-// totalStars:  Method that you want to run after selecting                                       
+
+// onSelectRatingStars:  Total Number of stars you want to display
+// totalStars:  Method that you want to run after selecting
 ```
 #
 <small><b>How simple is this !! </b></small> :blush:
@@ -71,8 +71,7 @@ ReactDOM.render(
 #
 :smiley:
 
-[npm-main]: http://badge.fury.io/js/react-star-rating-component.svg
-[npm-image]: https://img.shields.io/npm/v/express-paginate.svg?style=flat
+[npm-main]: https://badge.fury.io/js/star-based-rating.svg
 [license]: https://img.shields.io/apm/l/react
 
 
