@@ -1,0 +1,26 @@
+.stars_StarRateComponent {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.general_StarRateComponent,
+.selected_StarRateComponent,
+.hovered_StarRateComponent {
+    color: darkblue;
+    cursor: pointer;
+    font-size: larger;
+    margin-right: 5px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+
+.selected_StarRateComponent,
+.hovered_StarRateComponent {
+    color: #f3b339;
+    transition: all 0.4s;
+}
+
+.hovered_StarRateComponent {
+    color: #f846f8;
+    transition: all 0.4s;
+}
