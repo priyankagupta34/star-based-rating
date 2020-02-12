@@ -24,8 +24,8 @@ Less configurations Less confusions. You can edit them as well</b></small>
     onSelectRatingStars={this.selectStarHandler.bind(this)} 
     totalStars={10} />   
 
-// onSelectRatingStars:  Total Number of stars you want to display
-// totalStars:  Method that you want to run after selecting
+// onSelectRatingStars:  Method that you want to run after selecting
+// totalStars:  Total Number of stars you want to display
 ```
 #
 <small><b>How simple is this !! </b></small> :blush:
@@ -42,10 +42,8 @@ import StarBasedRating from 'star-based-rating'
 class App extends React.Component {
 
  selectStarHandler(totalStarsSelected) {
-
         /* totalStarsSelected param is giving you 
         selected number of stars and what you want to do with it */
-
     }
 
     render() {
