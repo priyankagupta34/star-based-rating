@@ -11,7 +11,11 @@
     "url": "git://github.com:priyankagupta34/star-based-rating.git"
   },
   "keywords": [
-    "react", "star-based-rating", "component", "rating", "star"
+    "react",
+    "star-based-rating",
+    "component",
+    "rating",
+    "star"
   ],
   "author": "priyanka",
   "license": "MIT",
