@@ -18,14 +18,16 @@ npm install star-based-rating --save
 ## Props
 
 <small><b>I have kept minimal configurations. 
-Less configurations Less confusions. You can edit them as well</b></small>
+Less configurations Less confusions. You can edit them as well. Also you can show previous stars</b></small>
 ```javascript
 <StarBasedRating 
     onSelectRatingStars={this.selectStarHandler.bind(this)} 
-    totalStars={10} />   
+    totalStars={10}
+    previousStarsToDisplay={3} />   
 
 // onSelectRatingStars:  Method that you want to run after selecting
 // totalStars:  Total Number of stars you want to display
+// previousStarsToDisplay: Provide existing stars already
 ```
 #
 <small><b>How simple is this !! </b></small> :blush:
@@ -51,7 +53,8 @@ class App extends React.Component {
             <div>
                 <StarBasedRating 
                 onSelectRatingStars={this.selectStarHandler.bind(this)} 
-                totalStars={10} />
+                totalStars={10}
+                previousStarsToDisplay={3} />
             </div>
         )
     }
